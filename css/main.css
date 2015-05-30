@@ -1,6 +1,5 @@
 body {
 	background-color: #fff;
-	padding-top: 50px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,9 +7,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  color: #4CB5AB;
-  text-decoration: none;
+/*a {
+	color: #5A5A5A;
+  text-decoration: underline;
 }
 
 a:hover,
@@ -23,7 +22,11 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-}
+}*/
+
+/*
+  Modified styles for navbar
+*/
 
 .navbar {
 	margin-bottom: 0;
@@ -52,7 +55,41 @@ a:focus {
 .navbar-brand {
 	font-family: 'Merienda One', cursive;
 	color: #4CB5AB !important;
+	padding-top: 10px;
 }
+
+/*
+  END modified styles for navbar
+*/
+
+/*
+  Styles for landing page only (no navbar)
+*/
+
+.main-header-landing {
+	min-height: 100vh;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #FFFFFF url("img/yellow-house-sm.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.logo-landing {
+	height: 30px;
+}
+
+.slogan-landing {
+	padding-top: 28vh;
+	padding-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: #4C4C4C;
+}
+
+/*
+  END styles for landing page only (no navbar)
+*/
 
 .main-header {
 	min-height: 100vh;
@@ -90,9 +127,10 @@ a:focus {
 }
 
 .explainer {
-	padding-bottom: 15px;
+	padding-bottom: 60px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
+	color: #4C4C4C;
 }
 
 .leader {
@@ -123,4 +161,26 @@ a:focus {
 	padding-top: 16px;
 	padding-bottom: 16px;
   background-color: #f5f5f5;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.logo-landing {
+		height: 50px;
+	}
+
+	.slogan-landing {
+		padding-top: 32vh;
+		font-size: 50px;
+	}
+
+	.explainer {
+		font-size: 18px;
+	}
 }

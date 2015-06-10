@@ -79,11 +79,11 @@ a:focus {
 }
 
 .slogan-landing {
-	padding-top: 28vh;
-	padding-bottom: 0;
+	padding-top: 34vh;
+	padding-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
-	font-size: 30px;
+	font-size: 18px;
 	color: #4C4C4C;
 }
 
@@ -137,9 +137,16 @@ a:focus {
 	margin-top: 15vh;
 }
 
+.btn-primary {
+	background-color: #4CB5AB;
+	border-color: #4CB5AB;
+}
 .cta-btn {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	border-radius: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .btn-lg.cta-btn {
@@ -177,7 +184,7 @@ a:focus {
 
 	.slogan-landing {
 		padding-top: 32vh;
-		font-size: 50px;
+		font-size: 40px;
 	}
 
 	.explainer {
